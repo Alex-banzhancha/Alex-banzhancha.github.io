@@ -75,9 +75,9 @@
 		<nav class="header-menu">
 			<ul>
 			
-				<li><a href="/" target="_blank">主页</a></li>
+				<li><a href="/" target="_blank">Home</a></li>
 			
-				<li><a href="/tags/%E9%9A%8F%E7%AC%94/" target="_blank">随笔</a></li>
+				<li><a href="/tags/%E9%9A%8F%E7%AC%94/" target="_blank">Jotting</a></li>
 			
 			</ul>
 		</nav>
@@ -98,26 +98,38 @@
 			<div class="social">
 				
 					
-						<a class="github" href="#" 
+						<a class="github" href="https://github.com/Alex-banzhancha" 
 												title="GitHub" target="_blank"><i class="icon-github"></i></a>
 					
 				
 					
-						<a class="github" href="#" 
-												title="GitHub" target="_blank"><i class="icon-github"></i></a>
+						<a class="qq" href="/img/2782466190.jpg" 
+												title="QQ" target="_blank"><i class="icon-qq"></i></a>
 					
 				
 					
-						<a class="gitee" href="#" 
-												title="gitee" target="_blank"><i class="icon-gitee"></i></a>
+						<a class="weixin" href="/img/wechat.jpg" 
+												title="wechat" target="_blank"><i class="icon-weixin"></i></a>
 					
 				
 					
-						<a class="jianshu" href="#" 
-												title="jianshu" target="_blank"><i class="icon-jianshu"></i></a>
+						<a class="mail" href="/yigaol2@uw.edu" 
+												title="Email" target="_blank"><i class="icon-mail"></i></a>
 					
 				
 			</div>
+		
+			
+			
+			
+			
+			<div>
+				<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="240" height="86" src="//music.163.com/outchain/player?type=2&id=1334445174&auto=1&height=66"></iframe>
+			</div>
+			
+				
+				<p style="font-size: 12px;">这似乎是首纯音乐，请尽情的欣赏它吧！<p>
+			
 		
 		</nav>
 	</header>		
@@ -164,22 +176,22 @@
 					
 						
 						<a class="github" target="_blank" 
-							href="#" title="GitHub"><i class="icon-github"></i></a>
+							href="https://github.com/Alex-banzhancha" title="GitHub"><i class="icon-github"></i></a>
 						
 					
 						
-						<a class="github" target="_blank" 
-							href="#" title="GitHub"><i class="icon-github"></i></a>
+						<a class="qq" target="_blank" 
+							href="/img/2782466190.jpg" title="QQ"><i class="icon-qq"></i></a>
 						
 					
 						
-						<a class="gitee" target="_blank" 
-							href="#" title="gitee"><i class="icon-gitee"></i></a>
+						<a class="weixin" target="_blank" 
+							href="/img/wechat.jpg" title="wechat"><i class="icon-weixin"></i></a>
 						
 					
 						
-						<a class="jianshu" target="_blank" 
-							href="#" title="jianshu"><i class="icon-jianshu"></i></a>
+						<a class="mail" target="_blank" 
+							href="/yigaol2@uw.edu" title="Email"><i class="icon-mail"></i></a>
 						
 					
 				</div>
@@ -189,9 +201,9 @@
 				<ul style="width: 50%">
 				
 				
-					<li style="width: 50%"><a href="/">主页</a></li>
+					<li style="width: 50%"><a href="/">Home</a></li>
 		        
-					<li style="width: 50%"><a href="/tags/%E9%9A%8F%E7%AC%94/">随笔</a></li>
+					<li style="width: 50%"><a href="/tags/%E9%9A%8F%E7%AC%94/">Jotting</a></li>
 		        
 				</ul>
 			</nav>
@@ -384,6 +396,27 @@
 
 
 
+<section id="comments">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname =
+    'true'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+      var dsq = document.createElement('script');
+      dsq.type = 'text/javascript';
+      dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+
+  </script>
+  <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="https://disqus.com/?ref_noscript">comments powered by
+      Disqus.</a></noscript>
+</section>
+
 
 
 
@@ -511,6 +544,10 @@
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">utilize my first experience of setting up a blog as the content of it</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
@@ -678,6 +715,16 @@
   <!-- <script async type="text/javascript" size="90" alpha="0.2" zIndex="0" src="/plugins/ribbon.js/ribbon.min.js"></script> -->
   
   
+  
+  <script type="text/javascript" src="/lib/snow.js"></script>
+  <script type="text/javascript" src="/lib/jquery-2.1.4.min.js"></script>
+  <script>
+    snow.down();
+    $(window).resize(function() {
+      $("canvas").css("z-index","500").remove();
+      snow.down();
+    });
+  </script>
   
 </body>
 
